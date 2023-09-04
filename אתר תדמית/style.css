@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: o;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #1c1e21;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    width: 94%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 50px;
+}
+
+nav ul li a {
+    display: inline;
+    text-align: right;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(91, 229, 163);
+}
+
+@media screen and (max-width: 1040px) {
+    .hero {
+        display: none;
+        width: 100%;
+    }
+    .logo-pic {
+        display: inline-block;
+        height: 12vh;
+    }
+    .button1 {
+        align-items: left;
+        display: inline-block;
+        position: relative;
+        background-color: rgb(54, 207, 133);
+        border-radius: 3%;
+        color: rgb(0, 0, 0);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 21px;
+        font-weight: 800;
+        margin-right: 5%;
+        margin-bottom: 3ch;
+    }
+    .button1:hover {
+        background-color: rgb(100, 201, 152);
+    }
+    h1 {
+        position: relative;
+        color: whitesmoke;
+        font-size: 6rem;
+        font-family: Monospace;
+        margin-right: 10%;
+        margin-top: -36pc;
+    }
+    mark.green {
+        color: rgb(91, 229, 163);
+        background: none;
+    }
+    h2 {
+        position: relative;
+        color: whitesmoke;
+        font-size: 6rem;
+        font-family: Monospace;
+        margin-right: 11%;
+    }
+    h3 {
+        position: relative;
+        color: rgb(91, 229, 163);
+        font-size: 3rem;
+        font-family: Monospace;
+        margin-right: 65%;
+    }
+    h5 {
+        position: absolute;
+        display: inline;
+        color: whitesmoke;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    p {
+        position: relative;
+        color: whitesmoke;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.2rem;
+        margin-right: 10%;
+        letter-spacing: 1.5px;
+    }
+    .about {
+        position: relative;
+        margin-top: -40ch;
+        margin-right: 65%;
+    }
+    .p-about {
+        position: relative;
+        margin-right: 65%;
+    }
+}
+
+
+/*pictures*/
+
+.logo-pic {
+    display: inline-block;
+    height: 12vh;
+}
+
+.pic-up {
+    display: flex;
+    position: absolute;
+    left: 0;
+    margin-left: 10%;
+    top: 0;
+    height: 84%;
+    width: 30%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    z-index: -33;
+}
+
+
+/*icon bar*/
+
+.button {
+    background-color: rgb(54, 207, 133);
+    border-radius: 3%;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.button:hover {
+    background-color: rgb(100, 201, 152);
+}
+
+.button1 {
+    display: inline-block;
+    position: relative;
+    background-color: rgb(54, 207, 133);
+    border-radius: 3%;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 900;
+    margin-right: 15%;
+    margin-bottom: 2ch;
+}
+
+.button1:hover {
+    background-color: rgb(100, 201, 152);
+}
+
+
+/*side nav*/
+
+.mySidenav {
+    position: relative;
+    justify-content: start;
+    z-index: 3;
+    margin-right: 21px;
+}
+
+
+/*כיתוב*/
+
+h1 {
+    position: relative;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: Monospace;
+    margin-right: 10%;
+    margin-top: -36pc;
+}
+
+mark.green {
+    color: rgb(91, 229, 163);
+    background: none;
+}
+
+h2 {
+    position: relative;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: Monospace;
+    margin-right: 11%;
+}
+
+h3 {
+    position: relative;
+    color: rgb(91, 229, 163);
+    font-size: 4rem;
+    font-family: Monospace;
+    margin-right: 65%;
+}
+
+h4 {
+    position: relative;
+    color: rgb(91, 229, 163);
+    font-size: 4rem;
+    font-family: Monospace;
+    text-align: center;
+}
+
+h5 {
+    position: absolute;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    left: 20%;
+}
+
+p {
+    position: relative;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    margin-right: 10%;
+    letter-spacing: 1.5px;
+}
+
+.about {
+    position: relative;
+    margin-top: -40ch;
+    margin-right: 65%;
+}
+
+.p-about {
+    position: relative;
+    margin-right: 65%;
+}
+
+.p-circle {
+    position: relative;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+
+/*רקע שני*/
+
+.sec-bg {
+    padding: 425px 0px 75px;
+    background-color: #40444b61;
+    border-radius: 0% 30% 0% 10%;
+}
+
+.squer {
+    display: inline-block;
+    position: relative;
+    border-radius: 25px;
+    background: #1c1d1d;
+    -moz-box-shadow: inset 20px 30px 70px rgb(91, 229, 163);
+    -webkit-box-shadow: inset 0 20px 40px rgb(91, 229, 163);
+    box-shadow: inset 10px 20px 80px rgb(91, 229, 163);
+    padding: 29px;
+    width: 230px;
+    height: 290px;
+    margin-right: 57ch;
+    margin-top: -38ch;
+}
+
+.circol {
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    background: #1c1d1d;
+    padding: 29px;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 10px rgb(91, 229, 163);
+    margin-right: -8ex;
+    margin-top: -3ex;
+}
+
+.circol1 {
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    background: #1c1d1d;
+    padding: 29px;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 10px rgb(91, 229, 163);
+    margin-right: 25ch;
+    font-size: 1rem;
+}
+
+.circol2 {
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    background: #1c1d1d;
+    padding: 29px;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 10px rgb(91, 229, 163);
+    margin-right: -8ex;
+    margin-top: 7ex;
+}
+
+.mark-position {
+    text-align: justify;
+    align-items: flex-start;
+    margin-top: -3%;
+    font-size: 1.3rem;
+}
+
+.men-pic {
+    display: inline-block;
+    position: relative;
+    width: 130%;
+    height: 80%;
+    margin-top: -89%;
+    z-index: 222222;
+}
+
+
+/*services*/
+
+.rectangle {
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    background: rgb(91, 229, 163);
+    margin-right: 34%;
+}
+
+.smallSquare {
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    background: #1d2430ec;
+    padding: 29px;
+    width: 130px;
+    height: 90px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 6%;
+}
+
+.smallSquare1 {
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    background: #1d2430ec;
+    padding: 29px;
+    width: 130px;
+    height: 90px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+
+/*portfolio*/
+
+.portfolio {
+    width: 40%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+}
+
+
+/*_____________________________________________*/
